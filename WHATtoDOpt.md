@@ -46,7 +46,7 @@
 > * Senhas devem expirar a cada 30 dias.
     > *    Mínimo de 2 dias antes que uma senha possa ser alterada novamente.
        >* Aviso de 7 dias antes da expiração da senha.
-        > *Senhas devem ter pelo menos 10 caracteres, incluindo letras maiúsculas, minúsculas e números.
+        > * Senhas devem ter pelo menos 10 caracteres, incluindo letras maiúsculas, minúsculas e números.
        > * Não devem conter mais de 3 caracteres idênticos consecutivos ou o nome do usuário.
 
 ### Usuários e Grupos:
