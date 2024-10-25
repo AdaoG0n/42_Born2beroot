@@ -29,13 +29,13 @@
 
 ### Serviço SSH:
 > * Configure o serviço SSH para operar na porta 4242.
-    > *    Restrição: Não permita login como root via SSH.
+> * Restrição: Não permita login como root via SSH.
 
 ### Firewall:
 > * Debian: Use UFW (Uncomplicated Firewall).
-    > *    Rocky Linux: Use firewalld.
-    > *    Configure o firewall para que apenas a porta 4242 esteja aberta.
-     > *   Assegure-se de que o firewall esteja ativo ao iniciar a máquina virtual.
+> * Rocky Linux: Use firewalld.
+> * Configure o firewall para que apenas a porta 4242 esteja aberta.
+> * Assegure-se de que o firewall esteja ativo ao iniciar a máquina virtual.
 
 ### Hostname:
 > Configure o hostname da máquina virtual para ser seu login seguido de 42 (exemplo: seuLogin42).
@@ -44,20 +44,20 @@
 
 ### Política de Senhas:
 > * Senhas devem expirar a cada 30 dias.
-    > *    Mínimo de 2 dias antes que uma senha possa ser alterada novamente.
-       >* Aviso de 7 dias antes da expiração da senha.
-        > * Senhas devem ter pelo menos 10 caracteres, incluindo letras maiúsculas, minúsculas e números.
-       > * Não devem conter mais de 3 caracteres idênticos consecutivos ou o nome do usuário.
+> * Mínimo de 2 dias antes que uma senha possa ser alterada novamente.
+> * Aviso de 7 dias antes da expiração da senha.
+> * Senhas devem ter pelo menos 10 caracteres, incluindo letras maiúsculas, minúsculas e números.
+> * Não devem conter mais de 3 caracteres idênticos consecutivos ou o nome do usuário.
 
 ### Usuários e Grupos:
 > * Além do usuário root, crie um usuário com seu login que pertença aos grupos user42 e sudo.
 
 ### Configuração do Sudo:
 > * Limite a 3 tentativas de autenticação para comandos sudo.
-    > *    Configure uma mensagem personalizada para erros de autenticação.
-      > *  Logs: Armazene logs das ações sudo em /var/log/sudo/.
-       > * Habilite o modo TTY para segurança.
-       > * Restrinja os caminhos que sudo pode utilizar (exemplo: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin).
+> * Configure uma mensagem personalizada para erros de autenticação.
+> * Logs: Armazene logs das ações sudo em /var/log/sudo/.
+> * Habilite o modo TTY para segurança.
+> * Restrinja os caminhos que sudo pode utilizar (exemplo: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin).
 
 # Script de Monitoramento
 
@@ -66,20 +66,20 @@
 
 ### Informações a Serem Exibidas:
 > * Arquitetura do sistema e versão do kernel.
- > * Número de processadores físicos e virtuais.
->  * Memória RAM disponível e taxa de utilização.
->  * Espaço de armazenamento disponível e taxa de utilização.
->  * Utilização dos processadores.
->  * Data e hora do último reboot.
->  * Status do LVM.
->  * Número de conexões ativas.
->  * Número de usuários conectados.
->  * Endereço IPv4 e endereço MAC do servidor.
->  * Número de comandos executados com sudo.
+> * Número de processadores físicos e virtuais.
+> * Memória RAM disponível e taxa de utilização.
+> * Espaço de armazenamento disponível e taxa de utilização.
+> * Utilização dos processadores.
+> * Data e hora do último reboot.
+> * Status do LVM.
+> * Número de conexões ativas.
+> * Número de usuários conectados.
+> * Endereço IPv4 e endereço MAC do servidor.
+> * Número de comandos executados com sudo.
 
 ### Configuração do Script:
->  * Utilize cron para agendar a execução do script a cada 10 minutos.
->  * Assegure-se de que o script funcione sem exibir erros e que possa ser interrompido durante a defesa sem modificações.
+> * Utilize cron para agendar a execução do script a cada 10 minutos.
+> * Assegure-se de que o script funcione sem exibir erros e que possa ser interrompido durante a defesa sem modificações.
 
 # Submissão e Avaliação
 
