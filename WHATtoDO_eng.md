@@ -3,13 +3,15 @@
 
 # Virtual Environment Setup
 
-### Software Virtualization Choice and Installation:
+### Software Virtualization Choice and Installation: 
 
-   > Use VirtualBox without exception. If you are on a Mac with an M1 chip, you can use UTM.
+> Use VirtualBox without exception. If you are on a Mac with an M1 chip, you can use UTM.
 
 ### Creating the Virtual Machine:
 
  > Install the chosen operating system (Debian or Rocky Linux).
+
+> Follow this guide > [SETUP VM](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM.md)
 
 ### Operating System:
 
