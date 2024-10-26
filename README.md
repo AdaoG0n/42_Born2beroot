@@ -4,7 +4,7 @@
  <img align="right" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot.png" width="400"/>
  </a>
  
-**Rules** ➔ [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDOpt.md) [🏴󠁧󠁢󠁥󠁮󠁧󠁿](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDO_eng.md) 
+**Rules** ➔ [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDOpt.md) [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDO_eng.md) 
 
 ### Overview
 Born2beRoot is a project designed for students at the 42 school, aimed at providing practical experience in setting up and managing a Linux server. This project emphasizes the importance of virtualization, specifically using VirtualBox, to create a functional environment for learning system administration. Objectives
@@ -20,6 +20,9 @@ Born2beRoot is a project designed for students at the 42 school, aimed at provid
 * **Resource Management:** Learn to manage limited disk space effectively while maintaining system functionality.
 
 This repository serves as a documentation and resource hub for all related scripts, configurations, and project requirements.
+
+# Utilities
+[Debian ISO](https://cdimage.debian.org/mirror/cdimage/archive/10.10.0/amd64/iso-cd/debian-10.10.0-amd64-netinst.iso)
 
 ---
 ###### Projeto desenvolvido por: [Adão Gonçalves](https://github.com/AdaoG0n)
