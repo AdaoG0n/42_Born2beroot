@@ -28,7 +28,7 @@
 
 > ### Next, it's time to select a keymap.
 > Since our keyboard follows the ANSI standard, choose American English.
-> If you're unsure about your keyboard standard, we highly recommend asking your staff for guidance our search in this website: [Keyboard layouts](https://keyshorts.com/blogs/blog/44712961-how-to-identify-laptop-keyboard-localization)
+> If you're unsure about your keyboard standard, we highly recommend asking your staff for guidance our search in this website: [Keyboard layouts](https://keyshorts.com/blogs/blog/44712961-how-to-identify-laptop-keyboard-localization).
 
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/7.png">
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/8.png">
