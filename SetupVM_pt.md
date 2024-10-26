@@ -1,4 +1,4 @@
-## 1. Download devian ISO
+## 1. Descarregar o ficheiro `ISO` (devian)
 [![Debian](https://img.shields.io/badge/Debian_iso-Download-D70A53?style=for-the-badge&logo=debian&logoColor=white)](https://cdimage.debian.org/mirror/cdimage/archive/10.10.0/amd64/iso-cd/debian-10.10.0-amd64-netinst.iso)  
 
 ## 2. Configurar e instalar a maquina Virtual
@@ -11,7 +11,7 @@ Precisamos usar um software de virtualização para a instalação. Os computado
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/1.png">
 
 > ### Escolher o nome e a pasta
-⚠️ Certifique-se de armazenar na pasta sgoinfre, que está localizada no servidor do seu campus 42.
+⚠️ Certifique-se de armazenar na pasta sgoinfre, que está localizada no servidor da 42.
 <br/>Este passo é essencial para evitar ficar sem espaço na sessão, o que levaria a falhas na instalação.
 
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/2.png">
