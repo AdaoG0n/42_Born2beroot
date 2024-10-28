@@ -42,3 +42,7 @@ Precisamos usar um software de virtualização para a instalação. Os computado
 
 > ### Agora, basta clicar em `Iniciar` para começar a instalação do ISO na máquina virtual
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/11.png">
+
+
+# Para continuar siga o guia:
+### Debian installation ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md)
