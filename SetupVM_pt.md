@@ -45,4 +45,4 @@ Precisamos usar um software de virtualização para a instalação. Os computado
 
 
 # Para continuar siga o guia:
-### Instalaçao Debian ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md)
+### Instalaçao Debian ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_pt.md)
