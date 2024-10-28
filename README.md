@@ -13,9 +13,9 @@
 ### Overview
 Born2beRoot is a project designed for students at the 42 school, aimed at providing practical experience in setting up and managing a Linux server. This project emphasizes the importance of virtualization, specifically using VirtualBox, to create a functional environment for learning system administration. Objectives
 
-### Virtual Machine Setup: Students will install a minimal version of Debian or CentOS as the operating system.
+### Virtual Machine Setup: Students will install a minimal version of Debian or Rocky as the operating system.
 * **User Management:** Configuration of user accounts and permissions, including the setup of sudo for administrative tasks.
-* **Service Installation:** Installation of essential services such as SSH, firewall (UFW), and database management systems (like MariaDB).
+* **Service Installation:** Installation of essential services such as SSH, firewall (UFW), and database management systems.
 * **Script Automation:** Development of scripts to automate installation and configuration processes.
 
 ### Key Features
