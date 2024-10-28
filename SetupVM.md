@@ -44,4 +44,4 @@ We need to use virtualization software for the installation. The computers in th
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/11.png">
 
 # To continue follow the guide below:
-### Debian installation ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md)
+### Debian installation ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_pt.md)
