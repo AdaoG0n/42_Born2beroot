@@ -8,7 +8,7 @@
 **Rules** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDO_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDOpt.md) 
 <br/>
 **Setup Virtual Machine** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM_pt.md) <br/>
-**Debian Installation** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md)
+**Debian Installation** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_pt.md)
 
 ### Overview
 Born2beRoot is a project designed for students at the 42 school, aimed at providing practical experience in setting up and managing a Linux server. This project emphasizes the importance of virtualization, specifically using VirtualBox, to create a functional environment for learning system administration. Objectives
