@@ -88,21 +88,26 @@
     Port 4242
     ```
     remova o `#`.
+4.1 Encontre a linha `#PermitRootLogin` e altere para:
+    ```plaintext
+    PermitRootLogin no
+    ```
+    remova o `#`.
 
 5. Salve e saia do nano.
 <br/>`CTRL + O` para guardar
 <br/>`CTRL + X` para sair
 
-7. Verifique se as configurações de porta estão corretas:
+7. Reinicie o serviço SSH:
+    ```bash
+    sudo service ssh restart
+    ```
+
+8. Verifique se as configurações de porta estão corretas:
     ```bash
     sudo service ssh status
     ```
     Terá de aparecer `ative (Running)` a verde.
-
-8. Reinicie o serviço SSH:
-    ```bash
-    sudo service ssh restart
-    ```
 
 ### Parte 2.4 - Instalando e Configurando UFW (Firewall Simples)
 
@@ -134,7 +139,7 @@
 
 ## Parte 3 - Conectando via SSH
 
-1. Para sair de sua Máquina Virtual e usar o mouse, pressione `Command` no seu teclado Apple, e seu mouse deve aparecer.
+1. Para sair de sua Máquina Virtual e usar o mouse, pressione `Command` no seu teclado Apple, ou `ctrl direito` no ubuntu e o seu rato deve aparecer.
 2. Vá para o seu programa VirtualBox.
 3. Clique em sua Máquina Virtual e selecione **Configurações**.
 4. Clique em **Rede**, depois **Adaptador 1**, em seguida **Avançado** e clique em **Reencaminhamento de Portas**.
@@ -171,50 +176,106 @@
     ```bash
     sudo apt-get install libpam-pwquality
     ```
+<!--
+	Configuração de senha forte para o sudo 🔒
+1 ◦ Vamos criar um ficheiro no caminho /etc/sudoers.d/. Decidi chamar o meu ficheiro sudo_config, pois é aqui que a configuração da senha será armazenada. O comando exacto para criar o ficheiro é touch /etc/sudoers.d/sudo_config.
+ 
+ Devemos criar o directório sudo no caminho /var/log porque cada comando que executamos com o sudo, tanto a entrada como a saída devem ser armazenadas nesse directório. Para o criar utilizaremos o comando mkdir /var/log/sudo.
 
-2. Abra o arquivo de configuração da senha:
+Captura de pantalla 2022-07-14 a las 21 56 53
+
+3 ◦ Devemos editar o ficheiro criado no passo 1. Como disse antes, pode usar qualquer editor que quiser, mas eu usarei nano. Comando para editar o ficheiro: nano /etc/sudoers.d/sudo_config.
+
+Captura de pantalla 2022-07-14 a las 22 04 10
+
+4 ◦ Uma vez editado o ficheiro, deve introduzir os seguintes comandos para cumprir todos os requisitos do subject.
+
+3. Abra o arquivo de configuração da senha:
     ```bash
     nano /etc/pam.d/common-password
     ```
 
-3. Encontre esta linha:
+4. Encontre esta linha:
     ```plaintext
     password requisite pam_deny.so
-    ```
-4. Adicione o seguinte ao final da linha:
+    ``` 
+5. Adicione o seguinte ao final da linha:
     ```plaintext
     minlen=10 ucredit=-1 lcredit=-1 dcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
     ```
-5. A linha deve agora se parecer com isso:
+6. A linha deve agora se parecer com isso:
     ```plaintext
       password       requisite         pam_pwquality.so retry=3 minlen=10 ucredit=-1 lcredit=-1 dcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
     ```
 
-6. Salve e saia do nano.
+7. Salve e saia do nano.
+A próxima coisa a fazer é voltar atrás e editar um ficheiro e modificar algumas linhas. Faremos nano /etc/pam.d/com palavras-passe comuns.
 
-7. Em seguida, abra o arquivo de configuração de login:
+Captura de pantalla 2022-07-16 a las 3 27 02
+
+5 ◦ Após nova tentativa=3, devemos acrescentar os seguintes comandos:
+
+minlen=10
+ucredit=-1
+dcredit=-1
+lcredit=-1
+maxrepeat=3
+reject_username
+difok=7
+enforce_for_root
+
+➤ É assim que a linha deve ser ↙️
+
+Screen Shot 2023-01-03 at 7 41 57 PM
+
+➤ Esta é a aparência que deve ter no ficheiro ↙️
+
+Captura de pantalla 2022-07-16 a las 3 38 08
+
+🤔 O que cada comando does❓
+
+minlen=10 ➤ O número mínimo de caracteres que a senha deve conter.
+
+ucredit=-1 ➤ Deve conter pelo menos uma letra maiúscula. Colocamos o - como deve conter pelo menos um caracter, se colocarmos + queremos dizer no máximo esses caracteres.
+
+dcredit=-1 ➤ Deve conter pelo menos um dígito.
+
+lcredit=-1 ➤ Deve conter pelo menos uma letra minúscula.
+
+maxrepeat=3 ➤ Não se pode ter o mesmo carácter mais de 3 vezes seguidas.
+
+reject_username ➤ Não pode conter o nome do utilizador.
+
+difok=7 ➤ Deve ter pelo menos 7 caracteres que não façam parte da senha antiga.
+
+enforce_for_root ➤ Iremos implementar esta política para o utilizador de raiz.
+
+6 ◦ A política de palavras-passe recentemente implementada afecta apenas os novos utilizadores. Portanto, é necessário atualizar as contas de utilizador que foram criadas antes desta política para cumprir os novos requisitos de segurança. Para verificar se o utilizador não está em conformidade com a política, vamos utilizar o comando sudo chage -l username.
+-->
+
+8. Em seguida, abra o arquivo de configuração de login:
     ```bash
     nano /etc/login.defs
     ```
 
-8. Encontre a parte:
+9. Encontre a parte:
     ```plaintext
     PASS_MAX_DAYS 9999
     PASS_MIN_DAYS 0
     PASS_WARN_AGE 7
     ```
-9. Mude para:
+10. Mude para:
     ```plaintext
     PASS_MAX_DAYS 30
     PASS_MIN_DAYS 2
     ```
-10. Mantenha `PASS_WARN_AGE 7` inalterado.
-11. Por fim, digite:
+11. Mantenha `PASS_WARN_AGE 7` inalterado.
+12. Por fim, digite:
     ```bash
     sudo reboot
     ```
     para reiniciar e aplicar as mudanças.
-12. Atualizar as contas de utilizador que foram criadas antes.
+13. Atualizar as contas de utilizador que foram criadas antes.
     Para verificar:
     ```bash
     sudo chage -l username
@@ -293,6 +354,13 @@
     nano monitoring.sh
     ```
 
+type `chmod 777 monitoring.sh`
+    ```bash
+    chmod 777 monitoring.sh
+    ```
+
+entrar no terminal fora da vm
+
 5. Adicione as seguintes linhas:
     ```bash
    #!/bin/bash
@@ -354,10 +422,7 @@
     	Sudo: $cmnd cmd"
       ```
 
-6. Lastly type `chmod 777 monitoring.sh`
-    ```bash
-    chmod 777 monitoring.sh
-    ```
+6. Lastly 
 
 7. Salve e saia.
 
