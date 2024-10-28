@@ -366,7 +366,7 @@
 
 6. Lastly type `chmod 777 monitoring.sh`
     ```bash
-    chmod 777 monitoring.s
+    chmod 777 monitoring.sh
     ```
 
 7. Salve e saia.
