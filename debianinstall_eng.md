@@ -57,9 +57,8 @@
 
 > ### You need to enter the password for your new user.
 >> I recommend use allways the same password to make it easier and simple.
-> <img width="600" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/14.png">
-
-> Repeat
+> <img width="600" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/14.png"><br/>
+> Repeat<br/>
 > <img width="600" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/15.png">
 
 # Step 4: Time Zone Configuration
@@ -125,8 +124,9 @@
 > ### Leave Proxy Option Blank.
 >> Skip the proxy configuration by leaving it blank and clicking Continue.
 > <img width="600" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/30.png">
+<br/>
 
-> choose the `No` option.
+>> choose the `No` option.
 > <img width="600" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/31.png">
 
 > ### Package Options.
