@@ -54,16 +54,6 @@
     EX: getent group sudo
     ```
 
-8. Abra o arquivo sudoers:
-    ```bash
-    nano visudo
-    ```
-
-9. Encontre `# User privilege specification` e adicione a linha:
-    ```plaintext
-    your_username   ALL=(ALL) ALL
-    ```
-
 ### Parte 2.2 - Instalando Git e Vim
 
 1. Para instalar o Git, digite:
