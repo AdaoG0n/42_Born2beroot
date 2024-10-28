@@ -3,7 +3,7 @@
 
 
 > ### Select the version without a graphical interface, as specified by the subject.
-> To confirm an action, press the **Enter** key, and use the **Arrow** keys to navigate through the options.
+> ⌨️ To confirm an action, press the **Enter** key, and use the **Arrow** keys to navigate through the options.
 
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/1.png">
 
@@ -17,7 +17,8 @@
 
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/3.png">
 
-> ### It's time to select a continent. In this case, we will choose Europe.
+> ### It's time to select a continent.
+> In this case, I choose Europe.
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/4.png">
 
 > ### Now, select your country from the list.
@@ -27,14 +28,16 @@
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/6.png">
 
 > ### Next, it's time to select a keymap.
-> Since our keyboard follows the ANSI standard, choose American English.
-> If you're unsure about your keyboard standard, we highly recommend asking your staff for guidance our search in this website: [Keyboard layouts](https://keyshorts.com/blogs/blog/44712961-how-to-identify-laptop-keyboard-localization).
+> If your keyboard follows the ANSI standard, choose American English.
+> If you're unsure about your keyboard standard, I highly recommend asking your staff for guidance our search in this website: [Keyboard layouts](https://keyshorts.com/blogs/blog/44712961-how-to-identify-laptop-keyboard-localization).
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/7.png">
 
-> ### In this step, we must choose the `Host Name` of the machine, which should be your login followed by 42.
+> ### In this step, we must choose the `Host Name` of the machine.
+> Which should be your login followed by 42.
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/8.png">
 
-> ### Leave this section blank, the subject does not mention anything about `Domain Name`.
+> ### Leave this section blank.
+> The subject does not mention anything about `Domain Name`.
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/9.png">
 
 
