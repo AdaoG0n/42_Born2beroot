@@ -21,7 +21,7 @@
 
 # Operating System Configuration
 
-### Disable Graphical Interface:
+### Without Graphical Interface:
 
   > Do not install X.org or any other graphical server. The interface will be purely command line.
 
