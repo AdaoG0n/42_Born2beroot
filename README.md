@@ -3,14 +3,17 @@
  <a href="#" style="pointer-events: none;">
  <img align="right" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot.png" width="400"/>
  </a>
+
+<div align="right">
  
->[!Note]
->**Subject** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/en.subject.pdf) <br/>
->**Rules** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDO_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDOpt.md) 
-><br/>
->**Setup Virtual Machine** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM_pt.md) <br/>
->**Debian Installation** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_pt.md) <br/>
->**Script** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/script_en.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/Script.md)
+
+**Subject** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/en.subject.pdf) <br/>
+**Rules** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDO_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDOpt.md) <br/>
+<br/>
+**Setup Virtual Machine** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM_pt.md) <br/>
+**Debian Installation** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_pt.md) <br/>
+**Script** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/script_en.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/Script.md)
+</div>
 
 ### Overview
 Born2beRoot is a project designed for students at the 42 school, aimed at providing practical experience in setting up and managing a Linux server. This project emphasizes the importance of virtualization, specifically using VirtualBox, to create a functional environment for learning system administration. Objectives
