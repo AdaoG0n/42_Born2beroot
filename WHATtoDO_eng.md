@@ -11,7 +11,8 @@
 
  > Install the chosen operating system (Debian or Rocky Linux).
 
-> Follow this guide > [SETUP VM](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM.md)
+> [!TIP]
+> ###### Follow this guide  ➡️   [**SETUP VM**](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM.md)
 
 ### Operating System:
 
