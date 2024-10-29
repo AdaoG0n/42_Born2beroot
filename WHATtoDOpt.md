@@ -9,7 +9,8 @@
 ### Criação da Máquina Virtual:
 > * Instale o sistema operacional escolhido (Debian ou Rocky Linux).
 
-> Siga o guia de instalação > [SETUP VM](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM_pt.md)
+> [!TIP]
+> ###### Follow this guide  ➡️   [**SETUP VM**](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM_pt.md)
 
 ### Sistema Operacional:
 
