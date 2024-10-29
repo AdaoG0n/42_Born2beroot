@@ -19,7 +19,7 @@
 
 # Configuração do Sistema Operacional
 
-### Desativar Interface Gráfica:
+### Sem Interface Gráfica:
 > Não instale X.org ou qualquer outro servidor gráfico. A interface será apenas de linha de comando.
 
 ## Segurança e Políticas:
