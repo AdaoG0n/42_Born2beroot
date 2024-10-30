@@ -1,31 +1,41 @@
 # System Setup
- ### Login into the system
-
-Enter encryption password;<br/>   
+### Login into the system
+###### Enter encryption password;<br/>   
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/1.png"><br/>
-Enter username and password; <br/>
+###### Enter username and password; <br/>
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/2.png">
 
 ### Installing sudo
-Switch to user <kbd> root </kbd>
-```bash
+###### Switch to user <kbd> root </kbd>
+```
  su
  ```
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/3.png"><br/>
 
 ### Install `Sudo` <br/>
-```bash
+```
 apt install sudo
 ``` 
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/4.png"><br/>
 
 ### Reboot the machine
-```bash
+```
  sudo reboot
 ```
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/5.png"><br/>
 
+### Check sudo version
+###### Login again with user and switch to root;
+###### Check sudo's version with the command
+```
+ sudo -V
+```
+>[!Note]
+>This command displays the currently installed version of sudo
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/6.png">
+
+### Configuring groups and users
+###### 
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/7.png">
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/8.png">
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/9.png">
