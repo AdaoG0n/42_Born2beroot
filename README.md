@@ -9,11 +9,11 @@
 
 **Subject** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/en.subject.pdf) <br/>
 **Rules** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDO_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDOpt.md) <br/>
-<br/>
+<kbd>Follow this guides below</kbd> <br/>
 **Setup Virtual Machine** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM_pt.md) <br/>
 **Debian Installation** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_pt.md) <br/>
-**Script** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/script_en.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/Script.md)<br/>
 **System Setup** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/systemsetup_en.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/systemsetup_pt.md)<br/>
+**Script** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/script_en.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/Script.md)<br/>
 </div>
 
 ### Overview
