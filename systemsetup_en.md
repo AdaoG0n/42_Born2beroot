@@ -1,8 +1,30 @@
-<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/1.png">
+# System Setup
+ ### Login into the system
+
+Enter encryption password;<br/>   
+<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/1.png"><br/>
+Enter username and password; <br/>
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/2.png">
-<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/3.png">
-<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/4.png">
-<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/5.png">
+
+### Installing sudo
+Switch to user <kbd> root </kbd>
+```bash
+ su
+ ```
+<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/3.png"><br/>
+
+### Install `Sudo` <br/>
+```bash
+apt install sudo
+``` 
+<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/4.png"><br/>
+
+### Reboot the machine
+```bash
+ sudo reboot
+```
+<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/5.png"><br/>
+
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/6.png">
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/7.png">
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/8.png">
