@@ -150,3 +150,6 @@
 > ### Completar Instalação.
 >> Após a instalação do GRUB, selecione Continuar para finalizar o processo.
 > <img width="600" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/setupdevian/35.png">
+
+# Para continuar siga o guia seguinte:
+### Configuração do sistema ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/systemsetup_en.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/systemsetup_pt.md)
