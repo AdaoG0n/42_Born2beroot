@@ -4,6 +4,8 @@
 # Virtual Environment Setup
 
 ### Software Virtualization Choice and Installation: 
+> [!TIP]
+> ###### Follow this guide  ➡️   [**SETUP VM**](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM.md)
 
 > Use VirtualBox without exception. If you are on a Mac with an M1 chip, you can use UTM.
 
@@ -11,16 +13,14 @@
 
  > Install the chosen operating system (Debian or Rocky Linux).
 
-> [!TIP]
-> ###### Follow this guide  ➡️   [**SETUP VM**](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM.md)
-
 ### Operating System:
 
  > * Debian: The latest stable version is recommended, especially if you are a beginner.
 > *  Rocky Linux: Latest stable version. Note that it is more complex and requires specific configurations such as SELinux.
 
 # Operating System Configuration
-
+> [!TIP]
+> ###### Follow this guide  ➡️   [**Debian install**](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md)
 ### Without Graphical Interface:
 
   > Do not install X.org or any other graphical server. The interface will be purely command line.
@@ -36,7 +36,8 @@
   > Create at least 2 encrypted partitions using LVM (Logical Volume Manager).
 
 # Network and Security Configuration
-
+> [!TIP]
+> ###### Follow this guide  ➡️   [**System Configuration**](https://github.com/AdaoG0n/42_Born2beroot/blob/main/systemsetup_en.md)
 ### SSH Service:
 
 > * Configure the SSH service to operate on port 4242.
