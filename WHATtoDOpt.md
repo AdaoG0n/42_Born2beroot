@@ -2,15 +2,15 @@
 [![Debian](https://img.shields.io/badge/Debian_iso-Download-D70A53?style=for-the-badge&logo=debian&logoColor=white)](https://cdimage.debian.org/mirror/cdimage/archive/10.10.0/amd64/iso-cd/debian-10.10.0-amd64-netinst.iso)  [![Virtual Box](https://img.shields.io/badge/VirtualBox-Download-183A61?logo=virtualbox&logoColor=white&style=for-the-badge)](https://www.virtualbox.org/wiki/Downloads)
 
 # Configuração do Ambiente Virtual
-
+> [!TIP]
+> ###### Follow this guide  ➡️   [**SETUP VM**](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM_pt.md)
+> 
  ### Escolha e Instalação do Software de Virtualização:
 > Utilize VirtualBox obrigatoriamente. Se você estiver em um Mac com chip M1, pode usar o UTM.
 
 ### Criação da Máquina Virtual:
 > * Instale o sistema operacional escolhido (Debian ou Rocky Linux).
 
-> [!TIP]
-> ###### Follow this guide  ➡️   [**SETUP VM**](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM_pt.md)
 
 ### Sistema Operacional:
 
@@ -18,7 +18,8 @@
 > * Rocky Linux: Última versão estável. Note que é mais complexo e requer configurações específicas como SELinux.
 
 # Configuração do Sistema Operacional
-
+> [!TIP]
+> ###### Follow this guide  ➡️   [**Debian Install**](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_pt.md)
 ### Sem Interface Gráfica:
 > Não instale X.org ou qualquer outro servidor gráfico. A interface será apenas de linha de comando.
 
@@ -32,7 +33,8 @@
 > Crie pelo menos 2 partições criptografadas usando LVM (Logical Volume Manager).
 
 # Configuração de Rede e Segurança
-
+> [!TIP]
+> ###### Follow this guide  ➡️   [**Configuração do sistema**](https://github.com/AdaoG0n/42_Born2beroot/blob/main/systemsetup_pt.md)
 ### Serviço SSH:
 > * Configure o serviço SSH para operar na porta 4242.
 > * Restrição: Não permita login como root via SSH.
