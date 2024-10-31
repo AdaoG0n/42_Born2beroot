@@ -12,6 +12,70 @@ Clone VM || create a snapshot && open VM.
 
 ### Mandatory Part (Questions for the student)
 How does a virtual machine work and what is its purpose?
+```
+Uma máquina virtual (VM) é um ambiente de computação que funciona como um sistema isolado com seus próprios recursos de CPU,
+memória,interface de rede e armazenamento, criado a partir de um conjunto de recursos de hardware físico. Veja como ela
+funciona e qual é seu propósito:
+Funcionamento
+Uma máquina virtual é essencialmente um software que emula um computador físico. Ela opera da seguinte forma:
+
+    Um software chamado hipervisor é instalado no computador físico (host).
+    O hipervisor gerencia os recursos de hardware e cria ambientes virtualizados isolados (as VMs).
+    Cada VM recebe uma alocação de recursos virtuais como CPU, RAM, armazenamento e rede.
+    Um sistema operacional é instalado dentro da VM, que funciona como se estivesse em um hardware dedicado.
+    O hipervisor gerencia a comunicação entre as VMs e o hardware físico subjacente1
+    2
+    .
+
+Propósito
+As máquinas virtuais têm diversos propósitos e usos, incluindo:
+Eficiência de recursos
+
+    Permitem executar múltiplos sistemas operacionais e aplicações em um único servidor físico.
+    Otimizam a utilização de hardware, economizando espaço e custos1
+    3
+    .
+
+Isolamento e segurança
+
+    Fornecem ambientes isolados para testar software ou analisar malware com segurança.
+    Criam "sandboxes" para executar aplicações desconhecidas sem risco ao sistema host2
+    .
+
+Flexibilidade e portabilidade
+
+    Facilitam a criação, cópia, movimentação e exclusão de ambientes computacionais.
+    Permitem ajustar recursos alocados conforme necessário1
+    3
+    .
+
+Desenvolvimento e testes
+
+    Oferecem ambientes de desenvolvimento isolados para engenheiros.
+    Facilitam testes em diferentes configurações de sistema2
+    .
+
+Recuperação de desastres
+
+    Permitem criar snapshots para backup e recuperação rápida2
+    .
+
+Computação em nuvem
+
+    São amplamente utilizadas por provedores de nuvem para oferecer recursos computacionais escaláveis3
+    .
+
+Casos de uso emergentes
+
+    Computação de borda: executam aplicações próximas à fonte de dados.
+    Gateways IoT: atuam como interface entre dispositivos IoT e a nuvem.
+    IA e aprendizado de máquina: fornecem ambientes flexíveis para cargas de trabalho complexas2
+    .
+
+Em resumo, as máquinas virtuais oferecem uma maneira flexível, eficiente e segura de utilizar recursos
+computacionais, permitindo que organizações otimizem sua infraestrutura de TI e adaptem-se rapidamente às
+mudanças nas demandas de negócios.
+```
 The basic differences between CentOS and Debian?
 Their choice of operating system?
 If CentOS: what SELinux and DNF are.
