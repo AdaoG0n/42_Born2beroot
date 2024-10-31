@@ -228,7 +228,7 @@ sudo ufw status
 ###### Retorne ao terminal fora da VM.
 ###### Conecte-se novamente via SSH
 >```sh
->ssh <username>@localhost -p 4242
+>ssh <username>@<IP_Maquina_Virtual>  -p 4242
 >```
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/37.png">
 
