@@ -160,29 +160,21 @@ sudo ufw status
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/24.png">
 
 ### Connecting via SSH
->[!Tip]
+######  Close the VirtualMachine and go to <kbd>Settings</kbd>
+<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/26.png">
+
+###### <kbd>Network</kbd> change from <kbd>NAT</kbd> to <kbd>`Bridged` adapter</kbd> 
+<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/27.png">
+
 > ###### Get VirtualMachine IP
 >```
 >hostname -I
 >```
 ><img width="700" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/25.png">
 
-######  Close the VirtualMachine and go to <kbd>Settings</kbd>
-<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/26.png">
-
-###### <kbd>Network</kbd> > <kbd>Port Forwarding</kbd> 
-<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/27.png">
-
-###### Add the `4242` port to `host` and `client` 
-
->[!Tip]
-> ###### If you can´t connect via terminal, just change the host port to `2221`
-> ###### In the next step, put 2221 instead of 4242 after `-p`
-<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/28.png">
-
 ###### Open a terminal out of VM and connect to the VM:
 >```sh
->ssh <username>@localhost -p 4242
+>ssh <username>@<VirtualMachine_IP> -p 4242
 >```
 
 >[!Note]
@@ -198,7 +190,7 @@ sudo ufw status
 >```
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/31.png">
 
-###### Close Unnecessary Connections
+<!-- ###### Close Unnecessary Connections
 >```sh
 >ss -tunlp
 >```
@@ -225,7 +217,7 @@ sudo ufw status
 >    dns
 >```
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/35.png">
-
+-->
 ### Configuring sudo policies and log
 ###### Create the following file
 >```sh
@@ -236,7 +228,7 @@ sudo ufw status
 ###### Return to the terminal outside the VM.
 ###### Connect again via SSH
 >```sh
->ssh <username>@localhost -p 4242
+>ssh <username>@<VirtualMachine_IP> -p 4242
 >```
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/37.png">
 
