@@ -77,7 +77,105 @@ computacionais, permitindo que organizações otimizem sua infraestrutura de TI 
 mudanças nas demandas de negócios.
 ```
 The basic differences between CentOS and Debian?
+```
+As duas distribuições Linux, Rocky Linux e Debian, têm algumas diferenças importantes:
+Origem e Filosofia
+
+    Rocky Linux: É um fork do Red Hat Enterprise Linux (RHEL), criado como substituto do CentOS, focado em
+estabilidade e compatibilidade empresarial1
+    .
+    Debian: É uma distribuição independente e de código aberto, mantida pela comunidade, com foco em
+estabilidade e liberdade de software2
+    .
+
+Gerenciamento de Pacotes
+
+    Rocky Linux: Usa o formato de pacote RPM e os gerenciadores YUM/DNF1
+    .
+    Debian: Utiliza o formato de pacote DEB e os gerenciadores dpkg/APT2
+    .
+
+Ciclo de Lançamento
+
+    Rocky Linux: Oferece suporte de longo prazo, seguindo o modelo do RHEL1
+    .
+    Debian: Lança novas versões estáveis a cada 2 anos aproximadamente2
+    .
+
+Usabilidade
+
+    Rocky Linux: Mais voltado para ambientes empresariais e servidores, pode ser mais complexo para iniciantes1
+    .
+    Debian: Oferece mais opções de personalização e pode ser mais amigável para usuários intermediários2
+    .
+
+Interface Gráfica
+
+    Rocky Linux: Possui uma GUI personalizável, com opções como GNOME, KDE e XFCE1
+    .
+    Debian: Também oferece várias opções de ambiente de desktop, mas com uma abordagem mais minimalista por padrão.
+
+Suporte e Comunidade
+
+    Rocky Linux: Tem uma comunidade crescente, beneficiando-se da experiência de usuários CentOS3
+    .
+    Debian: Possui uma grande e diversificada comunidade de desenvolvedores e usuários2
+    .
+
+Foco de Uso
+
+    Rocky Linux: Mais orientado para servidores e ambientes empresariais3
+    .
+    Debian: Versátil, adequado tanto para servidores quanto para desktops2
+    .
+
+Compatibilidade Empresarial
+
+    Rocky Linux: Altamente compatível com ambientes RHEL, facilitando a migração de sistemas empresariais1
+    3
+    .
+    Debian: Menos focado em compatibilidade RHEL, mas amplamente utilizado em diversos ambientes.
+
+Em resumo, Rocky Linux é mais focado em estabilidade e compatibilidade com ambientes empresariais RHEL,
+enquanto o Debian oferece mais flexibilidade e uma gama mais ampla de pacotes. A escolha entre eles
+dependerá das necessidades específicas do usuário ou da organização, considerando fatores como experiência
+prévia, requisitos de compatibilidade e preferências de gerenciamento de sistema.
+```
 Their choice of operating system?
+```
+Há várias razões para escolher o Debian como sistema operacional. Aqui estão alguns dos principais motivos:
+Estabilidade e Confiabilidade
+O Debian é conhecido por sua notável estabilidade. Cada versão passa por um rigoroso processo de testes antes do
+lançamento, garantindo um sistema robusto e livre de bugs críticos1
+2
+. Isso o torna uma escolha excelente para servidores e ambientes de produção que exigem alta confiabilidade.
+Software Livre e Código Aberto
+O Debian é totalmente composto por software livre, seguindo uma filosofia de liberdade e transparência1
+. Isso permite aos usuários executar, modificar e distribuir o software livremente, além de garantir a independência
+de interesses comerciais.
+Vasto Repositório de Software
+O Debian oferece um dos maiores repositórios de software entre as distribuições Linux, com milhares de pacotes disponíveis2
+. Isso significa que os usuários podem encontrar praticamente qualquer aplicação que necessitem sem recorrer a fontes externas.
+Suporte de Longo Prazo
+As versões estáveis do Debian recebem suporte por um longo período, incluindo atualizações de segurança2
+. Isso proporciona uma base sólida para operações de longo prazo, especialmente importante em ambientes empresariais.
+Flexibilidade e Personalização
+O Debian pode ser adaptado para uma ampla gama de usos, desde servidores até desktops3
+. Sua flexibilidade permite que seja configurado de acordo com necessidades específicas.
+Segurança
+O foco do Debian em segurança é notável. Vulnerabilidades são rapidamente identificadas e corrigidas, com atualizações
+sendo disponibilizadas em poucos dias3
+. O processo de desenvolvimento também prioriza a identificação e correção de problemas de segurança antes do lançamento
+das versões estáveis.
+Comunidade Ativa
+O Debian possui uma grande e ativa comunidade de desenvolvedores e usuários. Isso resulta em um excelente suporte
+comunitário e contínuo desenvolvimento do sistema2
+.
+Compatibilidade de Hardware
+O Debian oferece suporte a uma ampla gama de arquiteturas de hardware, tornando-o versátil para diferentes tipos de equipamentos3
+. Em resumo, o Debian é uma escolha excelente para quem busca um sistema operacional estável, seguro, flexível e com uma
+forte base comunitária. É particularmente adequado para servidores e ambientes que requerem alta confiabilidade e suporte de longo prazo.
+```
 If CentOS: what SELinux and DNF are.
 If Debian: the difference between aptitude, apt and what APPArmor is.
 During the defense, a script must display all information every 10 minutes. Its operation will be checked in detail later.
