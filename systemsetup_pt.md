@@ -160,29 +160,21 @@ sudo ufw status
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/24.png">
 
 ### Conectando via SSH
->[!Tip]
+######  Feche a Máquina Virtual e vá para <kbd>Configurações</kbd>
+<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/26.png">
+
+###### <kbd>Rede</kbd> > Mude de <kbd>NAT</kbd> para <kbd>Adaptador `Bridged`</kbd> 
+<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/27.png">
+
 > ###### Obtenha o IP da Máquina Virtual
 >```
 >hostname -I
 >```
 ><img width="700" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/25.png">
 
-######  Feche a Máquina Virtual e vá para <kbd>Configurações</kbd>
-<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/26.png">
-
-###### <kbd>Rede</kbd> > <kbd>Port Forwarding</kbd> 
-<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/27.png">
-
-###### dicione a porta `4242` ao `anfitrião` e ao `convidado`
-
->[!Tip]
-> ###### Se você não conseguir se conectar via terminal, apenas mude a porta do anfitrião para `2221`
-> ###### Na próxima etapa, coloque 2221 em vez de 4242 após `-p`
-<img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/28.png">
-
 ###### Abra um terminal fora da VM e conecte-se à VM:
 >```sh
->ssh <username>@localhost -p 4242
+>ssh <username>@<IP_Maquina_Virtual> -p 4242
 >```
 
 >[!Note]
@@ -198,7 +190,7 @@ sudo ufw status
 >```
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/31.png">
 
-###### Feche Conexões Desnecessárias
+<!-- ###### Feche Conexões Desnecessárias
 >```sh
 >ss -tunlp
 >```
@@ -225,7 +217,7 @@ sudo ufw status
 >    dns
 >```
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/35.png">
-
+-->
 ### Configurando políticas e log do sudo
 ###### Crie o seguinte arquivo
 >```sh
