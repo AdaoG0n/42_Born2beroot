@@ -1,19 +1,18 @@
-# <a href="#" style="pointer-events: none;"> <img src="https://img.shields.io/badge/status-0%20%2F%20100%20%E2%98%85-success?color=%2312bab9&style=flat-square"/> <img src="https://img.shields.io/github/last-commit/AdaoG0n/42_Born2beroot?style=flat-square&color=%2312bab9" /> </a>  • 42 Born2beroot <a href="https://github.com/AdaoG0n" style="pointer-events: none;"> <img src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/Followbutton.png" width="130" align="right"/></a>
+# <a href="#" style="pointer-events: none;"> <img src="https://img.shields.io/badge/status-0%20%2F%20100%20%E2%98%85-success?color=%2312bab9&style=flat-square"/> <img src="https://img.shields.io/github/last-commit/AdaoG0n/42_Born2beroot?style=flat-square&color=%2312bab9" /> </a> <a href="https://github.com/AdaoG0n" style="pointer-events: none;"> <img src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/Followbutton.png" width="130" align="right"/></a>
 
- <a href="#" style="pointer-events: none;">
- <img align="right" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot.png" width="400"/>
- </a>
+![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/animated%20gifs/born2beroot.gif)
 
-<div align="right">
+<div align="center">
  
 
-**Subject** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/en.subject.pdf) <br/>
-**Rules** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDO_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDOpt.md) <br/>
-<kbd>Follow this guides below</kbd> <br/>
-**Setup Virtual Machine** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM_pt.md) <br/>
-**Debian Installation** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_pt.md) <br/>
-**System Setup** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/systemsetup_en.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/systemsetup_pt.md)<br/>
-**Script** ➔ [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/script_en.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/Script.md)<br/>
+| **Subject**  [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/en.subject.pdf) | **Rules**  [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDO_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/WHATtoDOpt.md) |
+|--|--|
+
+###### Follow this guides from left to right
+| **Setup Virtual Machine**  [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/SetupVM_pt.md) | **Debian Installation**  [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_eng.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/debianinstall_pt.md) | **System Setup**  [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/systemsetup_en.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/systemsetup_pt.md) | **Script**  [🇬🇧](https://github.com/AdaoG0n/42_Born2beroot/blob/main/script_en.md) [🇵🇹](https://github.com/AdaoG0n/42_Born2beroot/blob/main/Script.md) |
+|--|--|--|--
+
+
 </div>
 
 ### Overview
