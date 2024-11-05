@@ -18,6 +18,6 @@
 > Copy this file to your intra repository <br/>
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/sign4.png)
 
-> ![Warning]
-> **Clone** the VM to avoid changing the obtained signature.
+> [!Warning]
+> **Clone** the VM to avoid changing the obtained signature. </br>
 > For tests or training allways use the **cloned** VM.
