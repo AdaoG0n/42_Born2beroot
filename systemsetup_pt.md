@@ -402,3 +402,6 @@ sleep $(who -b | awk '{ split($4, time, ":"); print time[2]%10 }')m
 
 ###### Está feito. Agora o terminal deve exibir esta mensagem a cada 10 minutos
 <img width="835" src="https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/systemsetup/62.png">
+
+# Para obter a assinatura, siga o guia seguinte
+[Obter signature.txt](https://github.com/AdaoG0n/42_Born2beroot/blob/main/signature_pt.md)
