@@ -7,7 +7,6 @@
 >```sh
 >sha1sum <vm-name.vdi>
 >```
-![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/sign1.png)
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/sign2.png)
 
 > After obtaining the key, we need to create the file signature.txt
