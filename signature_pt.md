@@ -15,9 +15,10 @@
 > ```
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/sign3.png)
 
-> Copie este arquivo para o seu repositório intra <br/>
-![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/sign4.png)
+Copie este arquivo para o seu repositório intra <br/>
+![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/born2beroot/sign4.png) </br>
 
-> ![Warning]
-> **Clone** a VM para evitar alterar a assinatura obtida.
+
+> [!Warning]
+> **Clone** a VM para evitar alterar a assinatura obtida. </br>
 > Para testes ou treinamento, use sempre a VM **clonada**.
