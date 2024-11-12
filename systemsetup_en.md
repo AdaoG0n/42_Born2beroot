@@ -405,3 +405,5 @@ sleep $(who -b | awk '{ split($4, time, ":"); print time[2]%10 }')m
 
 # To get signature.txt, follow the next guide
 [Signature.txt](https://github.com/AdaoG0n/42_Born2beroot/blob/main/signature_en.md)
+
+![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/animated%20gifs/madeby.gif)
