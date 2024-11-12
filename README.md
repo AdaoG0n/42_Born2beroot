@@ -15,6 +15,8 @@
 
 </div>
 
+![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/animated%20gifs/arrowbar.gif)
+
 ### Overview
 Born2beRoot is a project designed for students at the 42 school, aimed at providing practical experience in setting up and managing a Linux server. This project emphasizes the importance of virtualization, specifically using VirtualBox, to create a functional environment for learning system administration. Objectives
 
@@ -35,7 +37,7 @@ This repository serves as a documentation and resource hub for all related scrip
 >[![Debian](https://img.shields.io/badge/Debian_iso-Download-D70A53?style=for-the-badge&logo=debian&logoColor=white)](https://cdimage.debian.org/mirror/cdimage/archive/10.10.0/amd64/iso-cd/debian-10.10.0-amd64-netinst.iso)
 >[![Virtual Box](https://img.shields.io/badge/VirtualBox-Download-183A61?logo=virtualbox&logoColor=white&style=for-the-badge)](https://www.virtualbox.org/wiki/Downloads)
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=100&size=40&letterSpacing=0px&duration=1000&pause=4000&center=true&vCenter=true&width=1000&lines=___________________________________________________________________________________________________________________)
+![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 
 ### Earned skills
 <p align="left">
@@ -43,7 +45,7 @@ This repository serves as a documentation and resource hub for all related scrip
     <img src="https://skillicons.dev/icons?i=powershell,linux,debian" />
   </a>
 
-![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
+![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/animated%20gifs/madeby.gif)
 ###### Projeto desenvolvido por: [Adão Gonçalves](https://github.com/AdaoG0n)
 
 ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FAdaoG0n%2F42_Born2beroot.json&style=flat-square&labelColor=black&color=blue)
