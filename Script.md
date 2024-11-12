@@ -181,3 +181,5 @@ wall "	Architecture: $arch
 ```
 >[!Note]
 > ###### O comando wall exibe todas as informações obtidas em um formato organizado e acessível, usando variáveis para representar dados como arquitetura, uso de CPU e rede, e o número de comandos sudo executados.
+
+![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/animated%20gifs/madeby.gif)
