@@ -124,3 +124,5 @@
 > * Testes: Certifique-se de que todas as configurações estão funcionando corretamente antes da submissão.
 > * Segurança: Dê atenção especial às configurações de segurança, já que elas são críticas para o projeto.
 > * Backup: Faça backups regulares da sua máquina virtual para evitar perdas de dados.
+
+![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/animated%20gifs/madeby.gif)
