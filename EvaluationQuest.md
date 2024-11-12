@@ -158,3 +158,4 @@ cronstart
 sudo reboot
 sudo crontab -u root -e
 ```
+![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/animated%20gifs/madeby.gif)
