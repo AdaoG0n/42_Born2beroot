@@ -22,3 +22,5 @@ Copie este arquivo para o seu repositório intra <br/>
 > [!Warning]
 > **Clone** a VM para evitar alterar a assinatura obtida. </br>
 > Para testes ou treinamento, use sempre a VM **clonada**.
+
+![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/animated%20gifs/madeby.gif)
