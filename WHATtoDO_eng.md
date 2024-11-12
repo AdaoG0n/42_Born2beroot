@@ -136,9 +136,9 @@
 
 # Final Tips:
 
-  Documentation: Keep a detailed record of all configurations made. This will be useful for both defense and troubleshooting potential issues.
-  Testing: Ensure all configurations are functioning correctly before submission.
-  Security: Pay special attention to security configurations, as they are critical for the project.
-  Backup: Regularly back up your virtual machine to avoid data loss.
+ > * Documentation: Keep a detailed record of all configurations made. This will be useful for both defense and troubleshooting potential issues. </br>
+ > * Testing: Ensure all configurations are functioning correctly before submission.</br>
+ > * Security: Pay special attention to security configurations, as they are critical for the project.</br>
+ > * Backup: Regularly back up your virtual machine to avoid data loss.</br>
 
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/animated%20gifs/madeby.gif)
