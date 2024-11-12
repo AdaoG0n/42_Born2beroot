@@ -194,3 +194,5 @@ cmnd=$(journalctl _COMM=sudo | grep COMMAND | wc -l)
 
 >[!Note]
 > ###### The wall command displays all gathered information in an organized and accessible format, using variables to represent data like architecture, CPU usage, and the number of executed sudo commands.
+
+![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/animated%20gifs/madeby.gif)
