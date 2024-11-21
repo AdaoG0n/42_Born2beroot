@@ -47,7 +47,7 @@ This repository serves as a documentation and resource hub for all related scrip
 
 ### Testers
 
-| Testers                                                                | Autor        |
+| Testers                                                                | Author        |
 | :--------------------------------------------------------------------- | :---         |
 | [Born2BeRootTester](https://github.com/Pixailz/Born2BeRootTester)      | `Pixailz`    |
 | [Born2beroot-Tester](https://github.com/gemartin99/Born2beroot-Tester) | `gemartin99` |
